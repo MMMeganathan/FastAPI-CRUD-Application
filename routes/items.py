@@ -6,9 +6,7 @@ from datetime import date
 
 router = APIRouter()
 
-@router.get("/hello")
-async def homepage():
-    return ("hello world ...")
+
 
 
 @router.post("/items")
